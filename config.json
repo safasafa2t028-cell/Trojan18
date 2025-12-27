@@ -1,0 +1,28 @@
+{
+  "inbounds": [
+    {
+      "port": 8080,
+      "protocol": "trojan",
+      "settings": {
+        "clients": [
+          {
+            "password": "AYMNE_INFO",
+            "level": 0
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "path": "/ayman"
+        }
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "protocol": "freedom",
+      "settings": {}
+    }
+  ]
+}
